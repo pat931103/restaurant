@@ -6,7 +6,6 @@ import lombok.RequiredArgsConstructor;
 import org.axonframework.modelling.command.TargetAggregateIdentifier;
 
 /**
- * <p>拒绝订单command
  *
  * @since 2021/9/30 11:18 上午
  */

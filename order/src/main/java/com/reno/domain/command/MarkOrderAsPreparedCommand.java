@@ -6,13 +6,13 @@ import lombok.RequiredArgsConstructor;
 import org.axonframework.modelling.command.TargetAggregateIdentifier;
 
 /**
- * <p>write your description here
  *
- * @since 2021/9/30 11:51 上午
+ * @author reno
+ * @since 2021/9/30 12:00 下午
  */
 @Getter
 @RequiredArgsConstructor
-public class MarkOrderAsDeliveryCommand {
+public class MarkOrderAsPreparedCommand {
     @TargetAggregateIdentifier
-    private final OrderId targetAggregateIdentified;
+    private final OrderId targetAggregateIdentifier;
 }

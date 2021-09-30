@@ -6,7 +6,6 @@ import lombok.RequiredArgsConstructor;
 import java.math.BigDecimal;
 
 /**
- * <p>订单详情
  *
  * @since 2021/9/30 10:28 上午
  */

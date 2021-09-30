@@ -8,7 +8,6 @@ import org.axonframework.spring.stereotype.Aggregate;
 import java.util.List;
 
 /**
- * <p>write your description here
  *
  * @since 2021/9/30 10:31 上午
  */

@@ -1,7 +1,6 @@
 package com.reno.domain;
 
 /**
- * <p>write your description here
  *
  * @since 2021/9/30 10:22 上午
  */

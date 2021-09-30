@@ -7,11 +7,11 @@ import org.axonframework.modelling.command.TargetAggregateIdentifier;
 
 /**
  *
- * @since 2021/9/30 11:20 上午
+ * @since 2021/9/30 11:51 上午
  */
 @Getter
 @RequiredArgsConstructor
-public final class AcceptOrderCommand {
+public class MarkOrderAsDeliveredCommand {
     @TargetAggregateIdentifier
-    private final OrderId targetAggregateIdentifier;
+    private final OrderId targetAggregateIdentified;
 }
